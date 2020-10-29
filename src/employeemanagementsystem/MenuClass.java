@@ -7,6 +7,7 @@ public class MenuClass {
     Scanner scanner = new Scanner(System.in);
     boolean backToMain = true;
     ManagementMenu menu = new ManagementMenu();
+    Statistics smenu = new Statistics();
  
     public void calling() {
         while (backToMain) {            
@@ -166,7 +167,7 @@ public class MenuClass {
         //StatisticalMenu menu1 = new StatisticalMenu();
         switch (userChoice) {
             case 1:
-                menu.AverageWage();
+                smenu.AverageWage(menu.getAllEmployees());
                 break;
             case 2:
                 System.out.println("Du är i case 2");

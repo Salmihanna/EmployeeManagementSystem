@@ -8,6 +8,7 @@ public class ManagementMenu {
     Scanner scanner = new Scanner(System.in);
     static int countFemale = 1;
     static int countMale = 1;
+    
    
     public void registerNewEmployee(){
         String firstName;
@@ -322,7 +323,7 @@ public class ManagementMenu {
         System.out.println("Bonus registered ");
     }
    
-    public void AverageWage() {
+   /* public void AverageWage() {
         int sum = 0;
        
         for (int i = 0; i < employee.size(); i++) {
@@ -330,5 +331,10 @@ public class ManagementMenu {
         }
         sum = sum / employee.size();
         System.out.println("The average wage is: " + sum);
+    }
+*/
+    public ArrayList<Employee> getAllEmployees(){
+        
+        return employee;
     }
 }
