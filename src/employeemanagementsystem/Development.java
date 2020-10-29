@@ -16,7 +16,7 @@ public class Development extends Employee{
        double bonus;
        double newSalary;
        int salary;
-       bonus = getSalary()*(5/100);
+       bonus = getSalary()*5/100;
        newSalary = getSalary() + bonus;
        salary = (int) newSalary;
        setSalary(salary);

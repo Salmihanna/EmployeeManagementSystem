@@ -15,7 +15,7 @@ public class Managment extends Employee{
        double bonus;
        double newSalary;
        int salary;
-       bonus = getSalary()*(6/100);
+       bonus = getSalary()*6/100;
        newSalary = getSalary() + bonus;
        salary = (int) newSalary;
        setSalary(salary);
