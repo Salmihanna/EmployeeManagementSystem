@@ -140,9 +140,9 @@ public class MenuClass {
        
         while (isInt) {
             System.out.println("\n1: Average wage at the company"
-                    + "\n2: Highest salary at the company"//Johanna
+                    + "\n2: Highest salary at the company"       //Johanna
                     + "\n3: Lowest salary at the company"
-                    + "\n4: Total bonus" //Tobias
+                    + "\n4: Total bonus"                         //Tobias
                     + "\n5: Gender in percentage in the company" //Martina
                     + "\n0: Back to main menu");
             System.out.print("Make a choice: ");
